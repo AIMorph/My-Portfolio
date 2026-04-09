@@ -57,6 +57,30 @@
             margin: 20px 0;
             border-radius: 5px;
         }
+        .project ul {
+            margin: 12px 0 0 20px;
+        }
+        .project li {
+            background: none;
+            border: none;
+            padding: 4px 0;
+            margin: 0;
+        }
+        .contact {
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .contact a {
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
         footer {
             background-color: #003366;
             color: white;
@@ -86,10 +110,10 @@
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>Python</li>
-            <li>Pandas</li>
-            <li>SQL</li>
-            <li>GitHub</li>
+            <li>Python: Used for data manipulation and automation across analytics workflows.</li>
+            <li>Pandas: Used for cleaning and analyzing large datasets with precision.</li>
+            <li>SQL: Used for querying databases, extracting insights, and supporting reporting.</li>
+            <li>GitHub: Used for version control, collaboration, and tracking project changes.</li>
         </ul>
     </section>
 
@@ -98,7 +122,22 @@
         <div class="project">
             <h3>E-commerce Data Analysis</h3>
             <p>An in-depth analysis of e-commerce data to identify trends, customer behavior, and optimization opportunities. This project involved data cleaning, visualization, and predictive modeling using Python and SQL.</p>
+            <h4>Tools Used</h4>
+            <ul>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Seaborn</li>
+            </ul>
+            <h4>Key Challenges</h4>
+            <p>Focused on data cleaning to standardize transaction records, remove duplicates, and handle missing values in customer profiles and sales data. Addressed incomplete order details through careful imputation and validation to ensure reliable analysis.</p>
         </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">linkedin.com/in/yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">github.com/yourusername</a></p>
     </section>
 
     <footer>
